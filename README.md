@@ -2,6 +2,8 @@
 
 This is a tool I built to analyze a sample of WordPress.com posts for the most common types of content.
 
+This will analyze each post and make a note of the blocks used. If it's a classic post (or a Gutenberg post with one classic block) it will try to convert to blocks first and use the result of that conversion.
+
 ## Usage
 
 First, you need a CSV file named `posts.csv` with a blog ID and post ID in each row.
